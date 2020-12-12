@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dest">
+
+    <fragment
+        android:id="@+id/nav_dest"
+        android:name="com.example.americanos.DestaquesFragment"
+        android:label="@string/nav_destaques"
+        tools:layout="@layout/fragment_destaques" />
+
+    <fragment
+        android:id="@+id/nav_dep"
+        android:name="com.example.americanos.ui.DepartamentosFragment"
+        android:label="@string/nav_departamentos"
+        tools:layout="@layout/fragment_departamentos" />
+
+    <fragment
+        android:id="@+id/nav_cesta"
+        android:name="com.example.americanos.CestaFragment"
+        android:label="@string/nav_cesta"
+        tools:layout="@layout/fragment_cesta" />
+
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="com.example.americanos.FavFragment"
+        android:label="@string/nav_favoritos"
+        tools:layout="@layout/fragment_fav" />
+
+    <fragment
+        android:id="@+id/nav_mais"
+        android:name="com.example.americanos.MaisFragment"
+        android:label="fragment_mais"
+        tools:layout="@layout/fragment_mais" />
+
+
+</navigation>

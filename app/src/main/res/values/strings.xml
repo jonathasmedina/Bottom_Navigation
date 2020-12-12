@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Americanos</string>
+    <string name="nav_destaques">destaques</string>
+    <string name="nav_departamentos">departamentos</string>
+    <string name="nav_cesta">cesta</string>
+    <string name="nav_favoritos">favoritos</string>
+    <string name="nav_mais">mais</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

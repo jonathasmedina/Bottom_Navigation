@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/nav_dest"
+        android:icon="@drawable/ic_star"
+        android:checked="true"
+        android:title="@string/nav_destaques" />
+
+    <item
+        android:id="@+id/nav_dep"
+        android:icon="@drawable/ic_dep"
+        android:title="@string/nav_departamentos" />
+
+    <item
+        android:id="@+id/nav_cesta"
+        android:icon="@drawable/ic_cesta"
+        android:title="@string/nav_cesta" />
+
+    <item
+        android:id="@+id/nav_fav"
+        android:icon="@drawable/ic_fav"
+        android:title="@string/nav_favoritos" />
+
+    <item
+        android:id="@+id/nav_mais"
+        android:icon="@drawable/ic_mais"
+        android:title="@string/nav_mais" />
+
+</menu>
